@@ -11,6 +11,7 @@
   </head>
 
   <body>
+    <nav><%= link_to "Home", root_path %> <%= link_to "Categorias", categoria_path %> <%= link_to "Autores", autors_path %> <%= link_to "Livros", livros_path %> </nav>
     <%= yield %>
   </body>
 </html>
